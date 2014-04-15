@@ -1,0 +1,17 @@
+
+
+
+    RTG Graph Generator
+    Copyright (c) 2009
+    Leman Akoglu and Christos Faloutsos
+    All Rights Reserved
+
+
+
+You may use this code without fee, for educational and research purposes.
+Any for-profit use requires written consent of the copyright holders.
+
+
+Reference:
+   Leman Akoglu, Christos Faloutsos. RTG: A Recursive Realistic Graph
+   Generator using Random Typing. ECML PKDD, Bled, Slovenia, Sep. 2009.

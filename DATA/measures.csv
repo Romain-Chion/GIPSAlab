@@ -1,0 +1,14 @@
+Transitivity;transitivity_bu;
+Radius;charpath_r;
+Modularity;modularity;
+Maximum Path Length;distance_bin;
+Maximum Coreness;kcoreness_m;
+Efficiency;efficiency_bin;
+Diameter;charpath_d;
+Density;density_und;
+Degree Distribution;degrees_und;
+Clustering coefficient;clustering_coef_bu;
+Characteristic Path Length;charpath_l;
+Betweenness;betweenness_bin;
+Average Coreness;kcoreness_a;
+Assortativity;assortativity_bin;

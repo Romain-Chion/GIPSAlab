@@ -1,0 +1,501 @@
+name;Clustering coefficient;Betweenness
+Small-World;0.44898;0.0052613
+Small-World;0.43108;0.0050451
+Small-World;0.43627;0.0051766
+Small-World;0.44109;0.0050925
+Small-World;0.42842;0.0050442
+Small-World;0.4455;0.0051956
+Small-World;0.45193;0.0052484
+Small-World;0.44057;0.0051775
+Small-World;0.44165;0.0051649
+Small-World;0.45731;0.0053753
+Small-World;0.4645;0.0055126
+Small-World;0.43968;0.0052051
+Small-World;0.43886;0.005122
+Small-World;0.42801;0.0049572
+Small-World;0.42852;0.0050244
+Small-World;0.45067;0.005279
+Small-World;0.44565;0.0052098
+Small-World;0.44861;0.0051587
+Small-World;0.44622;0.0052345
+Small-World;0.45029;0.0052983
+Small-World;0.4445;0.005145
+Small-World;0.44804;0.0051959
+Small-World;0.44071;0.0051549
+Small-World;0.44565;0.0052299
+Small-World;0.43402;0.0049648
+Small-World;0.45394;0.005346
+Small-World;0.45635;0.0052426
+Small-World;0.43587;0.0050679
+Small-World;0.44616;0.0051464
+Small-World;0.44275;0.0051749
+Small-World;0.43895;0.0051269
+Small-World;0.44226;0.0050607
+Small-World;0.44373;0.0051263
+Small-World;0.44542;0.0052153
+Small-World;0.42374;0.0049093
+Small-World;0.44125;0.005104
+Small-World;0.44815;0.0051826
+Small-World;0.43721;0.0051192
+Small-World;0.43502;0.0051497
+Small-World;0.46942;0.0054868
+Small-World;0.46077;0.005378
+Small-World;0.44347;0.0051495
+Small-World;0.4544;0.0053693
+Small-World;0.4433;0.0051472
+Small-World;0.44342;0.0051926
+Small-World;0.43957;0.0050592
+Small-World;0.44084;0.0051376
+Small-World;0.44328;0.0051166
+Small-World;0.45184;0.0051901
+Small-World;0.45897;0.0053703
+Small-World;0.43327;0.0051029
+Small-World;0.443;0.0051153
+Small-World;0.43806;0.0051039
+Small-World;0.44154;0.0052064
+Small-World;0.42962;0.0050297
+Small-World;0.45277;0.0052842
+Small-World;0.44815;0.0052564
+Small-World;0.44431;0.005167
+Small-World;0.45316;0.0052593
+Small-World;0.43856;0.0051619
+Small-World;0.44684;0.0052597
+Small-World;0.42856;0.0050699
+Small-World;0.43789;0.0050487
+Small-World;0.45061;0.0053101
+Small-World;0.45049;0.0052773
+Small-World;0.44533;0.0052126
+Small-World;0.4425;0.0052362
+Small-World;0.44536;0.0052111
+Small-World;0.44485;0.0051778
+Small-World;0.44831;0.0052489
+Small-World;0.45415;0.0053756
+Small-World;0.43854;0.0050794
+Small-World;0.44627;0.0052462
+Small-World;0.43108;0.0050027
+Small-World;0.4426;0.0051458
+Small-World;0.44808;0.00525
+Small-World;0.44744;0.0052138
+Small-World;0.44233;0.0051262
+Small-World;0.43582;0.0050642
+Small-World;0.43456;0.0050311
+Small-World;0.4382;0.0051066
+Small-World;0.43544;0.0050944
+Small-World;0.43681;0.0050613
+Small-World;0.44751;0.0052614
+Small-World;0.43869;0.0051563
+Small-World;0.44851;0.0052386
+Small-World;0.44186;0.005185
+Small-World;0.43261;0.0049901
+Small-World;0.45288;0.0052832
+Small-World;0.43938;0.0050939
+Small-World;0.43955;0.0051375
+Small-World;0.43854;0.0051632
+Small-World;0.44771;0.0052608
+Small-World;0.44796;0.005223
+Small-World;0.43677;0.0050734
+Small-World;0.43434;0.0050403
+Small-World;0.44441;0.005136
+Small-World;0.44936;0.0052674
+Small-World;0.43624;0.0050659
+Small-World;0.44487;0.005132
+Random k-regular;0.001;0.0070538
+Random k-regular;0.001;0.0070635
+Random k-regular;0.002;0.0070979
+Random k-regular;0.001;0.0070768
+Random k-regular;0;0.0070804
+Random k-regular;0;0.00706
+Random k-regular;0.003;0.0070745
+Random k-regular;0;0.0070776
+Random k-regular;0.001;0.0070871
+Random k-regular;0.001;0.0071055
+Random k-regular;0.003;0.007131
+Random k-regular;0.001;0.0070538
+Random k-regular;0.001;0.007063
+Random k-regular;0;0.0070533
+Random k-regular;0.002;0.0070873
+Random k-regular;0.002;0.0070865
+Random k-regular;0.002;0.007102
+Random k-regular;0.002;0.0070849
+Random k-regular;0;0.0070491
+Random k-regular;0.002;0.0070498
+Random k-regular;0.002;0.0070843
+Random k-regular;0.004;0.0070789
+Random k-regular;0.002;0.0070748
+Random k-regular;0;0.0070747
+Random k-regular;0.005;0.0071335
+Random k-regular;0;0.0070706
+Random k-regular;0.002;0.007059
+Random k-regular;0.002;0.0071008
+Random k-regular;0.001;0.0071035
+Random k-regular;0.001;0.0070981
+Random k-regular;0.003;0.0070594
+Random k-regular;0.003;0.0071098
+Random k-regular;0.004;0.0071344
+Random k-regular;0.001;0.0070493
+Random k-regular;0.002;0.0070843
+Random k-regular;0;0.0070459
+Random k-regular;0.001;0.0070424
+Random k-regular;0.002;0.007057
+Random k-regular;0.001;0.0070584
+Random k-regular;0;0.0070738
+Random k-regular;0.001;0.0070545
+Random k-regular;0.002;0.0070597
+Random k-regular;0.002;0.0070846
+Random k-regular;0.001;0.0070934
+Random k-regular;0;0.0070651
+Random k-regular;0.001;0.0070361
+Random k-regular;0;0.0070497
+Random k-regular;0.006;0.0071319
+Random k-regular;0.002;0.0070802
+Random k-regular;0.001;0.0071133
+Random k-regular;0.002;0.0070493
+Random k-regular;0.002;0.0070767
+Random k-regular;0.004;0.0070873
+Random k-regular;0.001;0.0070798
+Random k-regular;0.002;0.0071005
+Random k-regular;0;0.0070778
+Random k-regular;0.003;0.0070667
+Random k-regular;0;0.0070591
+Random k-regular;0.002;0.0070966
+Random k-regular;0.001;0.0070872
+Random k-regular;0.005;0.0070867
+Random k-regular;0.002;0.0070795
+Random k-regular;0;0.0070538
+Random k-regular;0.001;0.0070892
+Random k-regular;0.002;0.0070484
+Random k-regular;0.002;0.0070824
+Random k-regular;0.005;0.0071174
+Random k-regular;0.002;0.0070435
+Random k-regular;0.002;0.0070907
+Random k-regular;0.001;0.0070876
+Random k-regular;0;0.0070816
+Random k-regular;0.003;0.0070774
+Random k-regular;0;0.0070618
+Random k-regular;0.002;0.0070998
+Random k-regular;0;0.0070885
+Random k-regular;0.002;0.0070276
+Random k-regular;0.001;0.007075
+Random k-regular;0.003;0.0070893
+Random k-regular;0.002;0.0070739
+Random k-regular;0;0.0070484
+Random k-regular;0;0.0070592
+Random k-regular;0.001;0.0070954
+Random k-regular;0.002;0.0070956
+Random k-regular;0;0.0070866
+Random k-regular;0.001;0.0070769
+Random k-regular;0.003;0.0070961
+Random k-regular;0.002;0.0071055
+Random k-regular;0.001;0.0070552
+Random k-regular;0.002;0.0070439
+Random k-regular;0.002;0.007093
+Random k-regular;0;0.0071031
+Random k-regular;0.002;0.007084
+Random k-regular;0.001;0.0070812
+Random k-regular;0.002;0.0070798
+Random k-regular;0.001;0.0070582
+Random k-regular;0.001;0.007073
+Random k-regular;0.001;0.0070691
+Random k-regular;0;0.0070503
+Random k-regular;0;0.0070683
+Random k-regular;0.002;0.0070506
+Preferential Attachment;0.034409;0.0024482
+Preferential Attachment;0.031148;0.00249
+Preferential Attachment;0.032579;0.0025124
+Preferential Attachment;0.03268;0.0024767
+Preferential Attachment;0.03983;0.0024474
+Preferential Attachment;0.03445;0.0024845
+Preferential Attachment;0.029108;0.0024592
+Preferential Attachment;0.031461;0.0025323
+Preferential Attachment;0.026207;0.0025308
+Preferential Attachment;0.031784;0.0025102
+Preferential Attachment;0.029654;0.0024796
+Preferential Attachment;0.028141;0.0025102
+Preferential Attachment;0.035874;0.0024286
+Preferential Attachment;0.031971;0.0024729
+Preferential Attachment;0.029626;0.0024864
+Preferential Attachment;0.030993;0.0024715
+Preferential Attachment;0.032714;0.0024854
+Preferential Attachment;0.034923;0.0024374
+Preferential Attachment;0.03106;0.0025086
+Preferential Attachment;0.028379;0.0025195
+Preferential Attachment;0.024265;0.0024988
+Preferential Attachment;0.034658;0.0024829
+Preferential Attachment;0.030027;0.0024491
+Preferential Attachment;0.031076;0.002457
+Preferential Attachment;0.032644;0.0024934
+Preferential Attachment;0.033306;0.0024578
+Preferential Attachment;0.035407;0.0024619
+Preferential Attachment;0.042637;0.002464
+Preferential Attachment;0.027602;0.0024863
+Preferential Attachment;0.033533;0.0024777
+Preferential Attachment;0.033033;0.0024798
+Preferential Attachment;0.037359;0.0024665
+Preferential Attachment;0.03266;0.0024415
+Preferential Attachment;0.027994;0.0025042
+Preferential Attachment;0.030174;0.0025047
+Preferential Attachment;0.033657;0.0024821
+Preferential Attachment;0.037531;0.0024062
+Preferential Attachment;0.032083;0.00246
+Preferential Attachment;0.026359;0.0025018
+Preferential Attachment;0.039165;0.0024662
+Preferential Attachment;0.032956;0.0024971
+Preferential Attachment;0.032741;0.002468
+Preferential Attachment;0.032302;0.002449
+Preferential Attachment;0.027561;0.0025046
+Preferential Attachment;0.041573;0.0024632
+Preferential Attachment;0.022921;0.0025038
+Preferential Attachment;0.032047;0.002472
+Preferential Attachment;0.030348;0.0024881
+Preferential Attachment;0.03278;0.0024797
+Preferential Attachment;0.035976;0.0024683
+Preferential Attachment;0.034828;0.0024919
+Preferential Attachment;0.034338;0.0024767
+Preferential Attachment;0.030567;0.002479
+Preferential Attachment;0.032364;0.0024904
+Preferential Attachment;0.038653;0.0024404
+Preferential Attachment;0.025446;0.0024871
+Preferential Attachment;0.03438;0.002489
+Preferential Attachment;0.028161;0.0024879
+Preferential Attachment;0.030748;0.0024949
+Preferential Attachment;0.029292;0.0024858
+Preferential Attachment;0.035133;0.0024633
+Preferential Attachment;0.027182;0.0025164
+Preferential Attachment;0.030495;0.0024993
+Preferential Attachment;0.029222;0.0025027
+Preferential Attachment;0.032799;0.0024862
+Preferential Attachment;0.042593;0.002406
+Preferential Attachment;0.033677;0.0024263
+Preferential Attachment;0.037583;0.0024253
+Preferential Attachment;0.032265;0.002479
+Preferential Attachment;0.031634;0.002479
+Preferential Attachment;0.034824;0.0024791
+Preferential Attachment;0.029711;0.0024432
+Preferential Attachment;0.03048;0.0024856
+Preferential Attachment;0.0331;0.0025118
+Preferential Attachment;0.034359;0.0025044
+Preferential Attachment;0.034291;0.0024612
+Preferential Attachment;0.026509;0.0024736
+Preferential Attachment;0.030202;0.0025074
+Preferential Attachment;0.030697;0.0024754
+Preferential Attachment;0.029634;0.0024676
+Preferential Attachment;0.044659;0.0024055
+Preferential Attachment;0.029433;0.0024729
+Preferential Attachment;0.033452;0.0024406
+Preferential Attachment;0.032989;0.0024992
+Preferential Attachment;0.035498;0.0024361
+Preferential Attachment;0.028033;0.002496
+Preferential Attachment;0.031533;0.0025213
+Preferential Attachment;0.034529;0.0024792
+Preferential Attachment;0.024734;0.0025151
+Preferential Attachment;0.02888;0.0025172
+Preferential Attachment;0.03315;0.0024862
+Preferential Attachment;0.032743;0.0024911
+Preferential Attachment;0.036786;0.0024465
+Preferential Attachment;0.034334;0.0024618
+Preferential Attachment;0.035033;0.0024826
+Preferential Attachment;0.027358;0.0025217
+Preferential Attachment;0.026995;0.0025231
+Preferential Attachment;0.033307;0.0024818
+Preferential Attachment;0.030073;0.002469
+Preferential Attachment;0.03079;0.0024806
+Forest Fire;0.40877;0.005821
+Forest Fire;0.37772;0.0065547
+Forest Fire;0.36683;0.0057213
+Forest Fire;0.35754;0.0054308
+Forest Fire;0.35505;0.0053584
+Forest Fire;0.38588;0.0056412
+Forest Fire;0.34495;0.0060159
+Forest Fire;0.37604;0.0062651
+Forest Fire;0.35137;0.0057551
+Forest Fire;0.40993;0.0054046
+Forest Fire;0.38059;0.0052799
+Forest Fire;0.38003;0.0064463
+Forest Fire;0.40185;0.0050325
+Forest Fire;0.36806;0.0053714
+Forest Fire;0.36439;0.0066065
+Forest Fire;0.38372;0.0054946
+Forest Fire;0.36044;0.0051473
+Forest Fire;0.3708;0.0057713
+Forest Fire;0.36204;0.0060241
+Forest Fire;0.3741;0.0055128
+Forest Fire;0.37704;0.0057312
+Forest Fire;0.33111;0.0058198
+Forest Fire;0.38226;0.0060006
+Forest Fire;0.34992;0.0052521
+Forest Fire;0.37841;0.0060383
+Forest Fire;0.38034;0.0055014
+Forest Fire;0.35967;0.0061445
+Forest Fire;0.38327;0.0056991
+Forest Fire;0.37448;0.0053386
+Forest Fire;0.39144;0.0052714
+Forest Fire;0.35837;0.0054672
+Forest Fire;0.34963;0.0057668
+Forest Fire;0.34982;0.0057758
+Forest Fire;0.37475;0.0057283
+Forest Fire;0.39434;0.0051528
+Forest Fire;0.35884;0.0055837
+Forest Fire;0.40132;0.0056059
+Forest Fire;0.3865;0.0054937
+Forest Fire;0.36846;0.0063004
+Forest Fire;0.36958;0.0059109
+Forest Fire;0.39547;0.0056927
+Forest Fire;0.37075;0.0053698
+Forest Fire;0.38614;0.0056927
+Forest Fire;0.37223;0.0056633
+Forest Fire;0.36383;0.0051183
+Forest Fire;0.38245;0.0060805
+Forest Fire;0.35997;0.0056392
+Forest Fire;0.40656;0.0054658
+Forest Fire;0.37062;0.0061677
+Forest Fire;0.38633;0.0058858
+Forest Fire;0.35887;0.0056066
+Forest Fire;0.37017;0.0058528
+Forest Fire;0.37671;0.0059462
+Forest Fire;0.38568;0.0054933
+Forest Fire;0.38256;0.0060726
+Forest Fire;0.38198;0.0054666
+Forest Fire;0.38535;0.0050304
+Forest Fire;0.38677;0.0060198
+Forest Fire;0.39321;0.0052705
+Forest Fire;0.37421;0.0059373
+Forest Fire;0.35539;0.0055296
+Forest Fire;0.36517;0.0056449
+Forest Fire;0.39971;0.0057914
+Forest Fire;0.35852;0.0066326
+Forest Fire;0.36846;0.0055875
+Forest Fire;0.36884;0.0056674
+Forest Fire;0.40448;0.0056669
+Forest Fire;0.3558;0.0057628
+Forest Fire;0.39528;0.0059506
+Forest Fire;0.38217;0.0055515
+Forest Fire;0.3816;0.0057483
+Forest Fire;0.38445;0.0054591
+Forest Fire;0.37164;0.0051842
+Forest Fire;0.36364;0.0055196
+Forest Fire;0.38447;0.0054285
+Forest Fire;0.37402;0.0058624
+Forest Fire;0.37587;0.0056707
+Forest Fire;0.38317;0.0060876
+Forest Fire;0.36582;0.0054383
+Forest Fire;0.38299;0.0063024
+Forest Fire;0.40844;0.0052482
+Forest Fire;0.36032;0.0054085
+Forest Fire;0.35291;0.0059575
+Forest Fire;0.36601;0.0057341
+Forest Fire;0.37468;0.0055338
+Forest Fire;0.37654;0.0058614
+Forest Fire;0.37324;0.0058057
+Forest Fire;0.3595;0.0052946
+Forest Fire;0.39701;0.0050378
+Forest Fire;0.38935;0.0053943
+Forest Fire;0.35473;0.0057054
+Forest Fire;0.41277;0.0061109
+Forest Fire;0.39732;0.0052502
+Forest Fire;0.38681;0.005845
+Forest Fire;0.39626;0.0050414
+Forest Fire;0.36629;0.0053195
+Forest Fire;0.38099;0.0052215
+Forest Fire;0.40528;0.0058031
+Forest Fire;0.37474;0.0050692
+Forest Fire;0.37241;0.0051677
+Erdos-Renyi;0.0017444;0.0041505
+Erdos-Renyi;0.0019921;0.0042044
+Erdos-Renyi;0.002104;0.0042386
+Erdos-Renyi;0.0027643;0.0043094
+Erdos-Renyi;0.0025793;0.0042317
+Erdos-Renyi;0.0040642;0.0040618
+Erdos-Renyi;0.0046643;0.0041983
+Erdos-Renyi;0.0026111;0.0042434
+Erdos-Renyi;0.0053802;0.0041914
+Erdos-Renyi;0.0037342;0.0043324
+Erdos-Renyi;0.004931;0.0042695
+Erdos-Renyi;0.0044524;0.0042587
+Erdos-Renyi;0.0015587;0.0041347
+Erdos-Renyi;0.0032333;0.0043292
+Erdos-Renyi;0.0024508;0.0041701
+Erdos-Renyi;0.0012429;0.0040311
+Erdos-Renyi;0.0048025;0.0041345
+Erdos-Renyi;0.0024667;0.0042965
+Erdos-Renyi;0.00435;0.004248
+Erdos-Renyi;0.0015095;0.0042487
+Erdos-Renyi;0.0046936;0.004246
+Erdos-Renyi;0.0051786;0.0042584
+Erdos-Renyi;0.0019968;0.0042504
+Erdos-Renyi;0.0017198;0.0042894
+Erdos-Renyi;0.0039849;0.0040661
+Erdos-Renyi;0.002131;0.0041646
+Erdos-Renyi;0.0061119;0.0042145
+Erdos-Renyi;0.0029333;0.004251
+Erdos-Renyi;0.00095476;0.0042159
+Erdos-Renyi;0.0013055;0.0041509
+Erdos-Renyi;0.0011024;0.0042044
+Erdos-Renyi;0.0013983;0.0041573
+Erdos-Renyi;0.0031016;0.0042866
+Erdos-Renyi;0.0034619;0.0041999
+Erdos-Renyi;0.0029476;0.0042736
+Erdos-Renyi;0.0015889;0.0043262
+Erdos-Renyi;0.002404;0.0040973
+Erdos-Renyi;0.0052301;0.0040541
+Erdos-Renyi;0.0060675;0.0042277
+Erdos-Renyi;0.0024548;0.0042782
+Erdos-Renyi;0.0043373;0.0041472
+Erdos-Renyi;0.0054778;0.0042403
+Erdos-Renyi;0.003131;0.0041998
+Erdos-Renyi;0.0031794;0.0042639
+Erdos-Renyi;0.0051825;0.0040799
+Erdos-Renyi;0.0011992;0.0042044
+Erdos-Renyi;0.0019658;0.004244
+Erdos-Renyi;0.0015452;0.0042107
+Erdos-Renyi;0.0034833;0.0041064
+Erdos-Renyi;0.0025706;0.004072
+Erdos-Renyi;0.0020715;0.004184
+Erdos-Renyi;0.0035984;0.0042438
+Erdos-Renyi;0.0068135;0.0041766
+Erdos-Renyi;0.0027254;0.0041443
+Erdos-Renyi;0.0038682;0.0042491
+Erdos-Renyi;0.0024968;0.0042825
+Erdos-Renyi;0.0039127;0.0041875
+Erdos-Renyi;0.0032619;0.0041987
+Erdos-Renyi;0.0023523;0.0041547
+Erdos-Renyi;0.0012864;0.0041937
+Erdos-Renyi;0.0020985;0.0043818
+Erdos-Renyi;0.0017778;0.0042256
+Erdos-Renyi;0.0041071;0.0043605
+Erdos-Renyi;0.0032619;0.0041848
+Erdos-Renyi;0.0021348;0.0042558
+Erdos-Renyi;0.0001619;0.0041507
+Erdos-Renyi;0.0039468;0.0043314
+Erdos-Renyi;0.0015167;0.004292
+Erdos-Renyi;0.0076706;0.0042201
+Erdos-Renyi;0.0032897;0.0042968
+Erdos-Renyi;0.0015119;0.0041652
+Erdos-Renyi;0.0010333;0.0043181
+Erdos-Renyi;0.0023159;0.0042511
+Erdos-Renyi;0.0014341;0.0043088
+Erdos-Renyi;0.0038587;0.0041867
+Erdos-Renyi;0.0025571;0.0042069
+Erdos-Renyi;0.0018984;0.0043237
+Erdos-Renyi;0.0020381;0.0042256
+Erdos-Renyi;0.0030698;0.0041834
+Erdos-Renyi;0.0026667;0.0042711
+Erdos-Renyi;0.0024538;0.0042711
+Erdos-Renyi;0.0031024;0.0042275
+Erdos-Renyi;0.0052878;0.0041961
+Erdos-Renyi;0.0051714;0.0043036
+Erdos-Renyi;0.0035714;0.0042709
+Erdos-Renyi;0.0011579;0.0040624
+Erdos-Renyi;0.0036246;0.0042244
+Erdos-Renyi;0.0021048;0.0042958
+Erdos-Renyi;0.0023437;0.0041328
+Erdos-Renyi;0.0033484;0.0041454
+Erdos-Renyi;0.0041542;0.004148
+Erdos-Renyi;0.0031238;0.0042175
+Erdos-Renyi;0.0066063;0.0043073
+Erdos-Renyi;0.0021365;0.0042561
+Erdos-Renyi;0.0035651;0.0042109
+Erdos-Renyi;0.0040238;0.0042352
+Erdos-Renyi;0.0031857;0.0042472
+Erdos-Renyi;0.0027214;0.0041749
+Erdos-Renyi;0.0032087;0.0041701
+Erdos-Renyi;0.00023651;0.0041888

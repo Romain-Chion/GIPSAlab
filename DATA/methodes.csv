@@ -1,0 +1,11 @@
+Small-World;graphgen -g:w;
+Random Typing Generator;rtg;
+Random Power Law;graphgen -g:p;
+Random k-regular;graphgen -g:k;
+Preferential Attachment;graphgen -g:b;
+Multiplicative Attribute Graph; maggen;
+Kronecker Graph;krongen;
+Forest Fire;forestfire;
+Erdos-Renyi;graphgen -g:e;
+Copying Model;graphgen -g:c;
+Community Affiliation;agmgen;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="6.0.003">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="6.0.003" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="6.0.003" expanded="true" height="60" name="Retrieve Test1" width="90" x="45" y="30">
+        <parameter key="repository_entry" value="../data/Test1"/>
+      </operator>
+      <operator activated="true" class="x_validation" compatibility="6.0.003" expanded="true" height="112" name="Validation" width="90" x="380" y="30">
+        <parameter key="create_complete_model" value="false"/>
+        <parameter key="average_performances_only" value="true"/>
+        <parameter key="leave_one_out" value="false"/>
+        <parameter key="number_of_validations" value="10"/>
+        <parameter key="sampling_type" value="stratified sampling"/>
+        <parameter key="use_local_random_seed" value="false"/>
+        <parameter key="local_random_seed" value="1992"/>
+        <process expanded="true">
+          <operator activated="true" class="naive_bayes" compatibility="6.0.003" expanded="true" height="76" name="Naive Bayes" width="90" x="45" y="30">
+            <parameter key="laplace_correction" value="true"/>
+          </operator>
+          <connect from_port="training" to_op="Naive Bayes" to_port="training set"/>
+          <connect from_op="Naive Bayes" from_port="model" to_port="model"/>
+          <portSpacing port="source_training" spacing="0"/>
+          <portSpacing port="sink_model" spacing="0"/>
+          <portSpacing port="sink_through 1" spacing="0"/>
+        </process>
+        <process expanded="true">
+          <operator activated="true" class="apply_model" compatibility="6.0.003" expanded="true" height="76" name="Apply Model" width="90" x="45" y="30">
+            <list key="application_parameters"/>
+            <parameter key="create_view" value="false"/>
+          </operator>
+          <operator activated="true" class="performance" compatibility="6.0.003" expanded="true" height="76" name="Performance" width="90" x="246" y="30">
+            <parameter key="use_example_weights" value="true"/>
+          </operator>
+          <connect from_port="model" to_op="Apply Model" to_port="model"/>
+          <connect from_port="test set" to_op="Apply Model" to_port="unlabelled data"/>
+          <connect from_op="Apply Model" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+          <connect from_op="Performance" from_port="performance" to_port="averagable 1"/>
+          <portSpacing port="source_model" spacing="0"/>
+          <portSpacing port="source_test set" spacing="0"/>
+          <portSpacing port="source_through 1" spacing="0"/>
+          <portSpacing port="sink_averagable 1" spacing="0"/>
+          <portSpacing port="sink_averagable 2" spacing="0"/>
+        </process>
+      </operator>
+      <connect from_op="Retrieve Test1" from_port="output" to_op="Validation" to_port="training"/>
+      <connect from_op="Validation" from_port="model" to_port="result 1"/>
+      <connect from_op="Validation" from_port="training" to_port="result 2"/>
+      <connect from_op="Validation" from_port="averagable 1" to_port="result 3"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+      <portSpacing port="sink_result 4" spacing="0"/>
+    </process>
+  </operator>
+</process>
