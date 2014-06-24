@@ -1,4 +1,10 @@
 function m=sys_measure(code,graph)
+% SYS_MEASURE   apply a measure on a graph using a string
+%
+%   code    : name of the measure function
+%   graph   : adjacency matrix of a graph
+%
+%   See also SYS_METHODE, SYS_METHODE2
 sys=str2func(code);
 switch code
     case 'clustering_coef_bu'

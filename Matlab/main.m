@@ -3,7 +3,7 @@ function main(graph,density,methodes,measures,n)
             {'*.csv','Matlab (MAT)'},'Save data in file...'); 
     file=fopen([path,name],'wt');
     if size(methodes,1)
-    line='name;';
+    line='Name;';
     for i=1:size(measures,2)
         line=[line,measures{i}{1},';'];
     end
@@ -13,7 +13,7 @@ function main(graph,density,methodes,measures,n)
         for j=1:100
             line=sys_methode(methodes{i}{1},methodes{i}{2},j,density,n);
             system(line);
-            graph_txt=fopen(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),num2str(j),'.txt']);
+            graph_txt=fopen(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),'.txt']);
             graph=txt2graph(graph_txt);
             save(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),num2str(j),'.mat'],'graph');
             fclose(graph_txt);
@@ -37,12 +37,17 @@ function main(graph,density,methodes,measures,n)
         [name, path] = uigetfile( ...
                    {'*.mat','Matrix (Matlab)'},...
                     'Select graphes for measuring','DATA\GRAPH\','multiselect', 'on');
-        for i=1:size(name,1)
+        line='Name;';
+        for i=1:size(measures,2)
+            line=[line,measures{i}{1},';'];
+        end
+        fprintf(file,[line,'\n']);
+        for i=1:size(name,2)
             load([path,name{i}],'graph');
             line=[name2label(name{i}),';'];
-            for k=1:size(measures,1)
-                m=str2func(measures{k}{2});
-                line=[line,num2str(m(graph)),';'];
+            for k=1:size(measures,2)
+                m=sys_measure(measures{k}{2},graph);
+                line=[line,num2str(m),';'];
             end
             fprintf(file,[line,'\n']);
         end

@@ -1,4 +1,9 @@
 function interface_generique
+% INTERFACE_GENERIQUE   Set up graph evaluation interface. Select and
+% visualize a graph. Select generative methodes wanted for the dataset as
+% well as measures used. Launch MAIN function.
+%
+%   See also MAIN, INTERFACE_RGB_VISUALIZE
 
 % clear all windows
 clc;
@@ -13,20 +18,20 @@ addpath('DATA');
 % Initialize global parameters
 methodes_csv=fopen('\DATA\methodes.csv');
 measures_csv=fopen('\DATA\measures.csv');
-methodes=textscan(methodes_csv,'%s %s','Delimiter',';');
-measures=textscan(measures_csv,'%s %s','Delimiter',';');
+methodes=textscan(methodes_csv,'%s %s','Delimiter',';');%all methodes
+measures=textscan(measures_csv,'%s %s','Delimiter',';');%all measures
 fclose(methodes_csv);
 fclose(measures_csv);
-methodes_bool=zeros(size(methodes{1}),1);
-measures_bool=zeros(size(measures{1}),1);
-density=0;
-n=0;
-graph=[];
+methodes_bool=zeros(size(methodes{1}),1);   %methodes selected
+measures_bool=zeros(size(measures{1}),1);   %measures selected
+density=0;  %graph density
+n=0;        %number of nodes
+graph=[];   %graph ajacency matrix
 
 % Initialize window
 scrsz=get(0,'ScreenSize');
 dire=dir('interface_generique.m');
-figure('Name',['Graph Generation (v1.0 ',datestr(dire.date,'dd-mm-yyyy'),')'],'NumberTitle','off',...
+figure('Name',['Graph Generation (v1.1 ',datestr(dire.date,'dd-mm-yyyy'),')'],'NumberTitle','off',...
               'MenuBar','none','Resize','off',...
               'Position',[(scrsz(3)-800)/2 (scrsz(4)-600)/2 800 600]);
 
@@ -60,11 +65,13 @@ uicontrol('Parent',hpg,'Style','text','Units','normalized','Position',[.05 .2 .9
                     graph=csv2graph(graph_csv);
                     fclose(graph_csv);
                 elseif strcmp(name(l-2:l),'mat')
-                    load([path,name],'graph');
+                    TEMP=load([path,name]);
+                    graph=TEMP.graph;
                 end
                 if size(graph,1)==size(graph,2)
                     density=density_und(graph);
                     n=size(graph,1);
+    % Update graph data on screen
     uicontrol('Parent',hpg,'Style','text','Units','normalized','Position',[.05 .5 .95 .45],...
               'FontSize',12,'HorizontalAlignment','left','String',['Filepath: ',path]);
     uicontrol('Parent',hpg,'Style','text','Units','normalized','Position',[.05 .35 .95 .1],...
@@ -111,11 +118,11 @@ end
         measures_bool(i)=get(hObj,'Value');
     end
 
-% Main Launcher
+% Main function launcher
 uicontrol('Parent',hpg,'Style','pushbutton','FontSize',14,'String','GO!',...
               'Position', [195 10 100 30],'Callback', @mainLauncher);
     function mainLauncher(hObj,event)
-        if max(graph)
+        if max(max(graph))
             i=1;k=1;
             methodes_main={};
             while i<=size(methodes{1},1)
@@ -134,10 +141,10 @@ uicontrol('Parent',hpg,'Style','pushbutton','FontSize',14,'String','GO!',...
                 end
                 i=i+1;
             end
+            % Generate graph and data through main function
             main(graph,density,methodes_main,measures_main,n); 
         else
             errordlg('No graph selected')
         end
     end
 end
-
