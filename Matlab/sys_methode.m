@@ -21,15 +21,15 @@ switch code
             ' -k:',num2str((n-1)*density/2),...
             ' -o:DATA\GRAPH\',strrep(name,' ','_'),'.txt'];
     case 'graphgen -g:c'                        
-        system(['DATA\graphgen -g:p -o:DATA\GRAPH\',strrep(name,' ','_'),'.txt',...
-        ' -n:',num2str(1/density)]);
+        sys=['DATA\graphgen -g:p -o:DATA\GRAPH\',strrep(name,' ','_'),...
+            '.txt -n:',num2str(1/density)]);
     case 'graphgen -g:p'
         p=(0.35-log(density)-0.0007*n)/2.4;
         if p<=1
             p=1.0001;
         end
-        system(['DATA\graphgen -g:p -o:DATA\GRAPH\',strrep(name,' ','_'),'.txt',...
-        ' -n:',num2str(n),' -p:',num2str(p)]);
+        sys=['DATA\GRAPH\',strrep(name,' ','_'),'.txt',...
+        ' -n:',num2str(n),' -p:',num2str(p)];
     case 'krongen'
         k=round(log2(n));
         x=nthroot(density/2,k)-0.3;
@@ -41,7 +41,6 @@ switch code
             ' -m:',matrix,...
             ' -i:',num2str(k),...
             ' -o:DATA\GRAPH\',strrep(name,' ','_'),'.txt'];
-        delete \DATA\temp.txt
     case 'maggen'
     case 'agmgen'
     case 'rtg'

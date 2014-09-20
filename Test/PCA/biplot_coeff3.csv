@@ -1,0 +1,11 @@
+%List of methodes used;;;;;;;
+Small-World;Random Power Law;Random k-regular;Preferential Attachment;Kronecker Graph;Forest Fire;Erdos-Renyi;
+%Complete Data;;;;;;;
+LABEL;Pc_1;Pc_2;Pc_3;Pc_4;Pc_5;Pc_6;Pc_7
+Small-World;-0.127;-0.527;-0.049;-0.096;0.033;0.174;-0.814;
+Random Power Law;0.053;-0.545;-0.139;0.190;-0.746;-0.108;0.277;
+Random k-regular;0.511;-0.012;-0.781;0.230;0.241;-0.114;-0.067;
+Preferential Attachment;0.470;-0.115;0.069;-0.353;-0.021;0.771;0.203;
+Forest Fire;-0.246;-0.598;-0.060;-0.212;0.561;-0.134;0.448;
+Kronecker Graph;-0.428;0.015;-0.136;0.678;0.116;0.560;0.110;
+Erdos-Renyi;0.505;-0.234;0.584;0.523;0.234;-0.138;-0.044;

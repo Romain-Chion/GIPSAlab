@@ -27,11 +27,12 @@ switch code
         if p<=1
             p=1.0001;
         end
-        system(['DATA\graphgen -g:p -o:power_graph','.txt',...
-        ' -n:',num2str(n),' -p:',num2str(p)]);
+        sys=['DATA\graphgen -g:p -o:DATA\GRAPH\',strrep(name,' ','_'),...
+            '.txt -n:',num2str(n),' -p:',num2str(p)];
     case 'krongen'
         k=round(log2(n));
-        x=nthroot(density/2,k)-0.3;
+        d=2*e/(n*(n-1));
+        x=nthroot(d/2,k)-0.3;
         alpha=num2str(0.8+x);
         beta=num2str(0.4+x);
         gamma=num2str(x);

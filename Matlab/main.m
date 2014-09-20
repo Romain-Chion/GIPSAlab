@@ -13,7 +13,7 @@ function main(graph,density,methodes,measures,n)
         for j=1:100
             line=sys_methode(methodes{i}{1},methodes{i}{2},j,density,n);
             system(line);
-            graph_txt=fopen(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),'.txt']);
+            graph_txt=fopen(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),num2str(j),'.txt']);
             graph=txt2graph(graph_txt);
             save(['DATA\GRAPH\',strrep(methodes{i}{1},' ','_'),num2str(j),'.mat'],'graph');
             fclose(graph_txt);
